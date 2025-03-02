@@ -545,7 +545,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main")
-local LLabel = Tab:CreateLabel("I'm a faggot so no more words")
+local LLabel = Tab:CreateLabel("I add more words since herble is gay")
 local Label = Tab:CreateLabel("Current Word: None")
 
 local function updatecurrentword(word)
