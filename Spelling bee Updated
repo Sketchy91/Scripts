@@ -477,10 +477,10 @@ local wordlist = {
     ["rbxassetid://137038697933424"] = "steadfast",
     ["rbxassetid://117211452869325"] = "syllable",
     ["rbxassetid://102458623296489"] = "kiss",
-    ["a"] = "a",
-    ["a"] = "a",
-    ["a"] = "a",
-    ["a"] = "a",
+    ["a"] = "congratulate",
+    ["rbxassetid://110829617178725"] = "hourglass",
+    ["rbxassetid://106289257367197"] = "detrimental",
+    ["rbxassetid://114994367532589"] = "Gradual",
     ["a"] = "a",
     ["a"] = "a",
     ["a"] = "a",
@@ -536,9 +536,9 @@ local function autotypeword(word)
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "Herkle Hub -- Spelling Bee",
-    LoadingTitle = "still waiting chat",
-    LoadingSubtitle = "by herkle <3",
+    Name = "Spelling Bee",
+    LoadingTitle = "Fixed",
+    LoadingSubtitle = "by Axtonfn",
     ConfigurationSaving = {
         Enabled = false,
     },
