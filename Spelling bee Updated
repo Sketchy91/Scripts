@@ -545,6 +545,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main")
+local Label = Tab:CreateLabel("New words")
 local Label = Tab:CreateLabel("Current Word: None")
 
 local function updatecurrentword(word)
@@ -615,7 +616,7 @@ Tab:CreateSlider({
 
 Tab:CreateSlider({
     Name = "Seconds Before Typing",
-    Range = {1.15, 2},
+    Range = {1, 2},
     Increment = 0.01,
     CurrentValue = pretypewait,
     Callback = function(value)
