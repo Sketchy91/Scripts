@@ -489,7 +489,7 @@ local wordlist = {
     ["rbxassetid://81537462730819"] = "sniffle",
     ["rbxassetid://136796468565906"] = "flamboyant",
     ["rbxassetid://76654925909282"] = "idiom",
-    [""] = "a",
+    ["rbxassetid://104301128511856"] = "gibberish",
     ["a"] = "a",
     ["a"] = "a",
     ["a"] = "a",
@@ -513,7 +513,7 @@ local keycodemap = {
     ["y"] = 0x59, ["z"] = 0x5A, ["enter"] = 0x0D,
 }
 
-local typingdelay = 0.3
+local typingdelay = 0.2
 local autotypeenabled = false
 local lastsound = nil
 local lastword = "None"
